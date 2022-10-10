@@ -1,8 +1,8 @@
 pluginManagement {
     repositories {
-        gradlePluginPortal()
         google()
         mavenCentral()
+        gradlePluginPortal()
     }
 }
 dependencyResolutionManagement {
@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Main Module Test"
 include ':app'
+include ':module.test'
+
+project(':module.test').projectDir = new File('module.module.test')
