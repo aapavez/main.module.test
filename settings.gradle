@@ -14,6 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Main Module Test"
 include ':app'
-include ':module.test'
+//include ':module.test'
 
-project(':module.test').projectDir = new File('module.module.test')
+//project(':module.test').projectDir = new File('module.module.test')
